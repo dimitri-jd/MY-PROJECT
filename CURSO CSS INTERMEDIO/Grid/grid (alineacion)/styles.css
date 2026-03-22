@@ -1,0 +1,59 @@
+body,div{
+    box-sizing: border-box;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 50px);
+    gap: 10px;
+    padding: 10px;
+    justify-items: stretch;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: space-evenly;
+    height: 350px;
+    border: 2px solid #000;
+    margin: 20px;
+}
+
+.grid-item:first-child{
+    background-color: #e66;
+    align-self: end;
+}
+
+.grid-item{
+    background-color: #48e;
+    color: #fff;
+    font-size: 60px;
+    font-size: 30px;
+    max-width: 100%;
+    border-radius: 16px;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.grid-item:hover{
+    opacity: 0.74;
+}
+
+/*eje horizontal*/
+
+/*.grid-item:first-child{
+    justify-self: start;
+} 
+    para modificar un hijo en espeifico */
+
+/*justify-items: justifica los elemntos en el eje horizontal dentro de su propia celda */
+
+/*justify-content: sirve para mover todas las celdas
+justify-content: space-between, space around, space-evenly  ;*/
+
+/* eje vertical */
+
+/*aling-self: alinea un elemento específico en el eje vertical dentro de su celda 
+align-items: alinea todos los elementos en el eje vertical dentro de su celda
+align-content: alinea todas las celdas en el eje vertical dentro de su celda
+ */

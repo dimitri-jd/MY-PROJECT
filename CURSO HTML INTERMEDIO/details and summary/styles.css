@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-family: sans-serif;
+}
+
+details{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 9px;
+    font-size: 0.7em;
+    color: rgb(153, 153, 153);
+}
+
+summary{
+    background-color: transparent;
+    font-size: 1em;
+    color: white;
+}
+
+ul{
+    font-weight: 100;
+}

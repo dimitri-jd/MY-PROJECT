@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    background-color: rgb(243, 218, 186);
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.contenedor{
+    border: 2px solid black;
+    margin: 30px 50px;
+    background-color: white;
+    position: relative;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(236, 193, 114);
+    color: white;
+}
+
+.box--blue{
+    background-color: rgb(63, 63, 172);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px; 
+    margin: auto;
+}
+
+.box--red{
+    background-color: rgb(253, 88, 88);
+}

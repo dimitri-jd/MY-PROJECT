@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+@supports (display: grid) {
+    body {
+        display: grid;
+    }
+}
+
+@supports not  (display: grid) {
+    body {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+}
+
+
+/*sirve para detectar si el navegador soporta una característica específica de CSS y aplicar estilos en consecuencia,  */

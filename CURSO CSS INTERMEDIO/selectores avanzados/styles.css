@@ -1,0 +1,35 @@
+/* SELECTOR DE ATRIBUTO*/
+
+/*img[src="dalto.png"]{   selecciona todo elemento con ese nombre
+    width: 100%;
+}
+/*img[src^="dalto"]{   selecciona todos los elementos img cuyo atributo src empiece con "dalto"
+    width: 100%;
+}
+ */
+/*
+img[src$="png"]{  selecciona todos los elementos img cuyo atributo src termine en png 
+    width: 100%;
+}*/
+img[src="dalto.png"]{ 
+    width: 100%;
+}
+
+/* SELECCION DESCENDIENTE: */
+ul li{
+    color: grey;
+}
+/*SELECTOR POR HIJO DIRECTO*/
+li > em{
+    color: red;
+}
+
+/*SELECTOR DE HERMANO ADYACENTE:selecciona el elemento que está justo después de otro elemento */
+h1 + p {
+    color: blue;
+}
+
+/* SELECTOR DE HERMANOS GENERALES: selecciona todos los elementos hermanos que siguen DEPUES  DEL otro elemento */
+h1 ~ p {
+    color: blue;
+}

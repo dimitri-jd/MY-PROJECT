@@ -1,0 +1,334 @@
+body{
+    background: linear-gradient(135deg, rgb(10, 0, 20) 0%, rgb(40, 5, 15) 50%, rgb(80, 2, 20) 100%);
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    color : white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.fondo_title{
+    background: url(https://wallpapers.com/images/hd/neon-genesis-evangelion-wallpaper-hd-ve62-h30qcmkvzt3uwjom.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-position: fixed;
+    width: 100%;
+    height: 70px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.fondo_title__text{
+    color: rgb(153, 47, 47);
+    margin: 0;
+    padding-top: 10px;
+    font-size: 30px;
+    text-decoration-line: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 10px;
+    text-shadow: 0 0 10px rgba(153, 47, 47, 0.8), 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.card{
+    background-color: rgb(34, 34, 34);
+    text-align: center;
+    width: 800px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 2px solid rgba(120, 60, 150, 0.6);
+    box-shadow: 0 0 20px rgba(120, 60, 150, 0.3);
+}
+
+.card__title{
+    padding-top: 20px;
+    font-size: 22px;  
+    margin: 0;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.card__subtitle{
+    font-size: 13px; 
+    font-weight: 100; 
+    letter-spacing: 2px;
+}
+
+.card__content{
+    font-size: 14px;
+    padding: 20px;
+    background: rgba(80, 20, 120, 0.5);
+    text-align: justify;
+    border-radius: 5px;
+
+}
+
+
+.fondo_2{
+    
+    background: url(https://a-static.besthdwallpaper.com/the-end-of-evangelion-wallpaper-1440x900-129404_4.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-position: fixed;
+    background-attachment: fixed;
+    width: 100%;
+    height: 70px;
+    padding: 20px;
+    margin:  0;
+    margin-top: 30px;
+    
+}
+
+.fondo_2__text{
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding-top: 10px;
+    font-size: 30px;
+    text-decoration-line: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 10px;
+    text-shadow: -3px 0px 2px rgb(209, 56, 56), 0 0 10px rgba(209, 56, 56, 0.5);
+}
+
+
+.card_game1{
+    background-color: rgb(34, 34, 34);
+    text-align: center;
+    width: 250px;
+    margin: 0;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 14px;
+    border-radius: 20px;
+    border: 2px solid rgba(120, 60, 150, 0.5);
+    box-shadow: 0 0 15px rgba(120, 60, 150, 0.2);
+}
+
+.card_game1__title{
+    padding-top: 12px;
+    padding-bottom: 10px; 
+    font-size: 22px;  
+    margin: 0;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+.card_game1__content{
+    font-size: 14px;
+    padding: 20px;
+    background: rgba(80, 20, 120, 0.5);
+    text-align: left;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+}
+
+
+.card_game1__img{
+    width: 190px;
+    border-radius: 50%;
+    border: 2px solid rgba(120, 60, 150, 0.5);
+    box-shadow: 0 0 15px rgba(120, 60, 150, 0.2);
+}
+
+
+
+.card_game2{
+    background-color: rgb(34, 34, 34);
+    text-align: center;
+    width: 250px;
+    margin: 0;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    display: inline-block;
+    margin-right: 14px;
+    border-radius: 20px;
+    border: 2px solid rgba(120, 60, 150, 0.5);
+    box-shadow: 0 0 15px rgba(120, 60, 150, 0.2);
+}
+
+.card_game2__title{
+    padding-top: 20px;
+    padding-bottom: 34px; 
+    font-size: 22px;  
+    margin: 0;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+.card_game2__content{
+    font-size: 14px;
+    padding: 20px;
+    background: rgba(80, 20, 120, 0.5);
+    text-align: left;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+}
+
+
+.card_game2__img{
+    width: 200px;
+    border-radius: 0%;
+    filter: drop-shadow(0 0 15px rgba(120, 60, 150, 0.2));
+
+
+}
+
+.card_game3{
+    background-color: rgb(34, 34, 34);
+    text-align: center;
+    width: 250px;
+    margin: 0;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    border: 2px solid rgba(120, 60, 150, 0.5);
+    box-shadow: 0 0 15px rgba(120, 60, 150, 0.2);
+}
+
+.card_game3__title{
+    padding-top: 20px;
+    padding-bottom: 21px; 
+    font-size: 22px;  
+    margin: 0;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+.card_game3__content{
+    font-size: 14px;
+    padding: 20px;
+    background: rgba(80, 20, 120, 0.5);
+    text-align: left;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+}
+
+
+.card_game3__img{
+    width: 135px;
+    border-radius: 50%;
+    border: 2px solid rgba(120, 60, 150, 0.5);
+    box-shadow: 0 0 15px rgba(120, 60, 150, 0.2);
+}
+
+.fondo_3{
+    background: url(https://a-static.besthdwallpaper.com/the-end-of-evangelion-wallpaper-1440x900-129404_4.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 70px;
+    padding: 20px;
+    margin: 0;
+    margin-top: 30px;
+    clear: both;
+}
+
+.fondo_3__text{
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding-top: 10px;
+    font-size: 30px;
+    text-decoration-line: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 10px;
+    text-shadow: -3px 0px 2px rgb(209, 56, 56), 0 0 10px rgba(209, 56, 56, 0.5);
+}
+
+.card_content_instagram{
+    background-color: rgb(34, 34, 34);
+    text-align: center;
+    width: 250px;
+    margin: 50px 20px 0 20px;
+    border-radius: 10px;
+    padding: 20px;
+    display: inline-block;
+    margin-left: 20%;
+    border: 2px solid rgba(120, 60, 150, 0.5);
+    box-shadow: 0 0 15px rgba(120, 60, 150, 0.2);
+}
+
+.card_content_instagram__title{
+    padding-top: 20px;
+    padding-bottom: 10px; 
+    font-size: 22px;  
+    margin: 0;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+
+.card_content_instagram__text{
+    font-size: 15px;
+    padding: 27px;
+    width: 100%;
+    background: #1a1a1a;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card_content_instagram__img{
+    width:150px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 10px;
+    border: 2px solid rgba(120, 60, 150, 0.5);
+    box-shadow: 0 0 15px rgba(120, 60, 150, 0.2);
+}
+
+
+.card_content_twitch{
+    background-color: rgb(34, 34, 34);
+    text-align: center;
+    width: 250px;
+    margin: 50px 20px 0 20px;
+    border-radius: 10px;
+    padding: 20px;
+    display: inline-block;
+    border: 2px solid rgba(120, 60, 150, 0.5);
+    box-shadow: 0 0 15px rgba(120, 60, 150, 0.2);
+}
+
+.card_content_twitch__title{
+    padding-top: 20px;
+    padding-bottom: 10px; 
+    font-size: 22px;  
+    margin: 0;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+
+.card_content_twitch__text{
+    font-size: 15px;
+    padding: 27px;
+    width: 100%;
+    background: #1a1a1a;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card_content_twitch__img{
+    width:150px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 10px;
+    border: 2px solid rgba(120, 60, 150, 0.5);
+    box-shadow: 0 0 15px rgba(120, 60, 150, 0.2);
+}

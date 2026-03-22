@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+
+div,body{
+    box-sizing: border-box;
+}
+
+.flexbox{
+    display: flex;
+    flex-flow: row  wrap;
+    margin: 20px;
+    align-items:center ;
+    border: 2px solid #000;
+
+}
+
+.flex-item{
+    background: rgb(136, 0, 0);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    direction: rtl;
+    flex: 1 1 100px;
+}
+
+
+.flex-item:nth-child(2n){
+    background-color: rgb(255, 119, 119);
+
+}
+.flex-item:last-child{
+    background-color: black;
+
+}
+
+.item-5{
+    align-self: stretch;
+}
+
+/*aling-self: define cómo alinear un elemento individual dentro del contenedor flex. Valores posibles: flex-start, flex-end, center, stretch, baseline.*/
+
+
+/*flex-grow: define cuánto espacio debe ocupar un elemento en relación con los demás elementos del contenedor flex para expandirse.
+flex-shrink: define cuánto debe reducirse el tamaño de un elemento en relación con los demás elementos del contenedor flex.
+flex-basis: define el tamaño inicial de un elemento antes de que se apliquen las reglas flex-grow y flex-shrink.
+gab: define el espacio entre los elementos flexibles dentro del contenedor flex.*/

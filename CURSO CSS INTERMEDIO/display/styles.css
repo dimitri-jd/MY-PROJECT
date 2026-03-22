@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+
+.nav{
+    background-color: rgb(3, 80, 168);
+}
+
+.nav__list{
+margin: 0;
+text-align: center;
+}
+
+.nav__item{
+    display: inline-block;
+
+}
+
+.nav__link{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(3, 80, 168);
+}
+
+.nav__link:hover{
+    background-color: rgb(9, 99, 158);
+}
+
+.link--button{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: white;
+    padding: 4px 18px; 
+    color: rgb(3, 80, 168);
+    border-radius: 3px;
+    margin-left: 60px;
+}
+
+.link--button:hover{
+    background: transparent;
+    color: white;
+}

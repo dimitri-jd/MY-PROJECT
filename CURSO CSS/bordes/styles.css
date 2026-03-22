@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+
+
+div{
+    background:black(50, 3, 219);
+    width: 200px; 
+    margin: auto; 
+    text-align: center;
+    padding: 15px;
+    color: rgb(255, 187, 0);
+}
+
+
+div{
+border: 10px solid rgba(23, 10, 197, 0.856);
+border-radius: 50px;
+border-top: 11px dashed rgb(21, 255, 0);
+border-bottom:11px dashed rgb(42, 119, 42);
+border-left: 10px solid rgb(36, 139, 41);
+border-right: 10px solid rgb(36, 139, 41);
+}

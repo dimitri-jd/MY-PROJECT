@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(100px, 300px));
+    grid-template-rows: 400px 200px;
+}
+
+.grid-item{
+    background-color: #48e;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+
+/*repeat: repite un patrón de columnas o filas
+minmax: establece un rango mínimo y máximo para el tamaño de una columna o fila */

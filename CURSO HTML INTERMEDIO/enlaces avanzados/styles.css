@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    color: rgb(216, 216, 216);
+    background-color: black;
+}
+h2{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1.3em;
+    padding: 10px;
+}
+
+form{
+    background-color: transparent;
+    padding: 20px 0px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0px 0px 55px rgba(182, 182, 182, 0.191);
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.form_input{
+    padding: 6px 20px;
+}
+
+input,textarea, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 8px;
+    border: none;
+    border: 1px solid rgb(61, 61, 61);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.603);
+    background-color: transparent;
+    border-radius: 4px;
+    color: rgb(252, 240, 221);
+}
+
+option{
+    background-color: rgb(32, 32, 32);
+}
+
+textarea{
+    min-width: 100%;
+    resize: none;
+    min-height: 102px;
+    font-family: sans-serif;
+}
+
+label{
+    font-size: 0.88em;
+    line-height: 2.1; 
+}
+.checkbox{
+    width: auto;
+    height: 10px;
+}
+
+fieldset{
+    border-radius: 5px;
+    border: 1px solid rgb(61, 61, 61);
+    padding: 8px 6px 20px 6px;
+    margin: 20px;
+}
+
+legend{
+    padding: 0px 6px;
+    color: rgb(70, 70, 70);
+}
+
+a{
+    color: rgb(6, 68, 161);
+    text-decoration: none;
+}

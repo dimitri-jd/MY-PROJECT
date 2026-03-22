@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    container-type: inline-size;
+    container-name: main;
+}
+
+p {
+    font-size: 8px;
+}
+
+@container main (max-width: 600px) {
+    p {
+        font-size: 20px;
+        color: red;
+        background-color: black;
+    }
+}
+
+
+
+
+
+/*container-type: inline-size: sirve para poder condicionar propiedades por su ancho y tiene en cuenta las dimensiones en linea
+container-type: size: tienen en cuenta las dimensiones en bloque y en linea*/

@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.flex-item{
+    background: rgb(136, 0, 0);
+    margin: 10px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    width: 180px;
+}
+
+.flex-item:first-child{
+    background-color: rgb(255, 119, 119);
+}
+.flex-item:last-child{
+    background-color: black;
+}
+
+
+/* display: flex : hace que los elementos hijo de un contenedor se comporten como elementos flexibles */
+/*row: se acomodan en linea de izquierda a derecha*/
+/*column: se acomodan en columna de arriba hacia abajo*/
+/*row-reverse: se acomodan en linea de derecha a izquierda*/
+/*column-reverse: se acomodan en columna de abajo hacia arriba*/

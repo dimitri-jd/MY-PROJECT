@@ -1,0 +1,84 @@
+h1{
+    color: aqua;
+    font-family: sans-serif;
+    margin: 30px;
+}
+
+/*CUANDO PASMAOS EL MOUSE POR ENCIMA DE H1*/
+h1:hover{
+    background-color: rgb(207, 207, 207);
+    color: black;
+}
+
+/*MIENTRAS SE ESTE CLICKENADO H1*/
+h1:active{
+    background-color: grey;
+    color: white;
+}
+
+/* SELECIONAR EL PRIMER LI */
+li:first-child{
+    color: red;
+}
+
+/* SELECIONAR EL SEGUNDO LI */
+li:nth-child(2){
+    color:green;
+}
+
+/* SELECIONAR UN LI SI UN LI NO */
+li:nth-child(2n){
+    color:green;
+}   
+
+/* SELECIONANDO EL SEGUNDO LI */
+li:nth-of-type(2){
+    color:rgb(142, 153, 142);
+}
+
+/* SELECIONAR EL ULTIMO LI */
+li:last-child{
+    color: blue;
+}
+/* SELECCIONADO LOS LI DENTRO DE ".LISTA" PERO QUE NO TENGAN LA CLASE EXCLUIR*/
+.lista li:not(.excluir){
+    color: rgb(255, 0, 0);
+}
+
+div{
+    border: 2px solid black;
+}
+
+/*SELECIONANDO EL DIV ES CASO DE ESTAR VACIO*/
+div:empty{
+    border: none;
+}
+
+input[type="checkbox"]{
+    margin: 50px;
+}
+
+input[type="checkbox"]:checked{
+    margin: 0px;
+}
+
+/* SELECIONANDO ENLACES NO VISITADOS*/
+a:link{
+    color: red;
+}
+
+/* SELECIONANDO ENLACES  VISITADOS*/
+
+a:visited{
+    color: green;
+}
+
+/*SELECCIONANDO INPUTS VALIDOS*/
+input:valid {
+    color: green;
+}
+
+/* SELECCIONANDO INPUTS INVALIDOS*/
+input:invalid {
+    color: red;
+}

@@ -1,0 +1,14 @@
+body{
+color: blue;
+}
+
+div{
+    font-family: sans-serif;
+    color: red;
+}
+
+h1{
+    color: initial;
+}
+
+/*inherit: se usa para heredar propiedades de un elemento padre a sus hijos( es mas usada para cambiar tipografias en inputs textarea o elementos muy puntuales o a los enlaces para que la pagina se adapte a la tipografia  */

@@ -1,0 +1,14 @@
+#titulo{
+    color: green;
+}
+.titulo{
+    color: red;
+}
+h1{
+    color: blue;
+}
+
+
+/* !important: es la que tiene  mas specificidad de todas 
+style="": es la segunda  con mas specificidad
+Entre mas especifico sea la selecion del elemento, mayor sera su especificidad*/

@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto 300px;
+    grid-template-rows: 400px 200px;
+}
+
+.grid-item{
+    background-color: #48e;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+
+
+/*display:grid : hace que los elementos hijo se distribuyan en una cuadrícula
+grid-template-columns: hace que se creen columnas de un ancho específico
+grid-template-rows: hace que se creen filas de un alto específico
+grid-template-rows:auto :tiene en  cuenta  el contenido minimo y lo que sobra lo distribuye
+grid-template-rows: 1fr : distribuye el espacio disponible en partes iguales ( y si necesita mas espacio se lo da y lo que sobra se lo da a las demas cajas que tangan fr)*/

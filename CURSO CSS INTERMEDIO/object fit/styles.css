@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+img{
+    width: 1400px;
+    height: 1200px;
+    object-fit: cover;
+    object-position: top;
+    border: 2px solid black;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+/*object-fit values:
+contain: mantiene la proporción de la imagen y ajusta al contenedor
+cover: mantiene la proporción de la imagen y cubre todo el contenedor
+fill: rellena todo el contenedor sin mantener proporción
+none: no se ajusta al contenedor
+scale-down: escala a menor tamaño entre none y contain*/

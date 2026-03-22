@@ -1,0 +1,29 @@
+body{
+    background-color: red;
+    margin: 0;
+}
+
+
+.box{
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(to top,transparent, rgba(0, 0, 0, 0.747),transparent);
+    margin: 0;
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 20px;
+    border-top: 6px solid rgb(255, 0, 0)
+}
+
+img{
+    width: 300px;
+}
+
+
+h1{
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}

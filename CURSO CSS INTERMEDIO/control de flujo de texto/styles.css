@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: antiquewhite;
+}
+
+.box{
+    width: 240px;
+    height: 240px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    border: 1px solid black;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-wrap: pretty;
+}
+
+h1{
+text-wrap: balance;
+}
+
+/*balance: para textos
+pretty: para titulos*/
+
+/* ellipsis: pone puntos suspensivos cuando el texto excede el ancho del contenedor
+ nowrap: evita que el texto se divida en varias líneas
+ hidden: oculta el texto que excede el ancho del contenedor
+ word-break: permite romper palabras largas que exceden el ancho del contenedor
+ break-word: rompe palabras largas que exceden el ancho del contenedor (casi no se usa)
+ keep-all: evita que el texto se divida en varias líneas ( evita la ruptura de palabras)
+ word-wrap- anywhere: permite que el texto se ajuste al contenedor (se usa comúnmente) si las palabras son muy largas las rompe para que no se desborde
+text-wrap: pretty: balancea el texto para que se vea más equilibrado y legible dentro del contenedor ( no quedan palabras solas y sueltas al final de una línea)*/

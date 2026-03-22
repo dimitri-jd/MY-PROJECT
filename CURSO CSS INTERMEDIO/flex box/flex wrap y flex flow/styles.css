@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.flexbox{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100vh;
+}
+
+.flex-item{
+    background: rgb(136, 0, 0);
+    margin: 10px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    width: 100px;
+}
+
+.flex-item:first-child{
+    background-color: rgb(255, 119, 119);
+}
+.flex-item:last-child{
+    background-color: black;
+}
+
+
+/*flex-flow: es una abreviación de flex-direction y flex-wrap
+flex-wrap: wrap: pone los elementos en múltiples líneas si no caben en una sola línea
+flex-wrap-reverse: pone los elementos en múltiples líneas en orden inverso* /

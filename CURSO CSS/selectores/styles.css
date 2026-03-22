@@ -1,0 +1,14 @@
+/*forma de seleccionar por elemento */
+li {
+    color: grey;
+}
+
+/*forma de seleccionar por clases */
+.ingrediente-faltante {
+    color: red;
+}
+
+/*forma de seleccionar por id */ 
+#ingrediente-secreto {
+color: blue;
+}

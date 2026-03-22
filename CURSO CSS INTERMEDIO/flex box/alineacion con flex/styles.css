@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+
+div,body{
+    box-sizing: border-box;
+}
+
+.flexbox{
+    display: flex;
+    flex-flow: row wrap;
+    border: 2px solid #000;
+    margin: 20px;
+    height: 100px;
+    align-items:center ;
+    justify-content: space-evenly;
+    background-color: #fff;
+}
+
+.flex-item{
+    background: rgb(136, 0, 0);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    direction: rtl;
+    width: 100px;
+    height: 50px;
+
+}
+
+.flex-item:first-child{
+    background-color: rgb(255, 119, 119);
+}
+.flex-item:last-child{
+    background-color: black;
+}
+
+
+/*justify-content values:
+
+para una linea o muchas lineas en el eje principal, se usa justify-content
+    flex-start: items are packed at the beginning of the container
+    flex-end: los posiciona al final del contenedor
+    center: centra los elementos dentro del contenedor
+    space-between: el primer elemento y el ultimo vaan a estar posicionados , solo cambia la distribucion de los demas 
+    space-around: items are evenly spaced with equal space around each item
+    spaace-evenly:deja todos lo elementos a la misma distacia entre si y entre  los bordes*/
+
+
+/* aling-item: 
+para una linea en el eje cruzado (eje secundario) se una aling-item
+/* stretch: los elementos se estiran para llenar el contenedor
+flex-start: los elementos se alinean al inicio del contenedor
+flex-end: los elementos se alinean al final del contenedor
+center: los elementos se centran dentro del contenedor 
+baseline: los elementos se alinean por su línea base  */
+
+/* para muchas lienas en el eje cruzado aling-content*/
